@@ -1,3 +1,5 @@
+import img1 from '../Assets/Image1.jpg';
+
 const data={
     products:[
         {
@@ -5,21 +7,21 @@ const data={
             quantity: 20,
             name:'TeensHighheels',
             price:150,
-            image:require('../Assets/Image1.jpg'),
+            image: img1,
         },
         {
             id:2,
             quantity: 20,
             name:'Teenssilverheels',
             price:170,
-            image:require('../Assets/Image2.jpg'),
+            image: require('../Assets/Image2.jpg'),
         },
         {
             id:3,
             quantity: 20,
             name:'AdultHighheels',
             price:200,
-            image:require('../Assets/Image3.jpg'),
+            image: require('../Assets/Image3.jpg'),
         },
     ],
 };

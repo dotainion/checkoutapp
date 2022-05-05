@@ -9,7 +9,7 @@ export default function Product({product, onAdd}){
                 <p>{product.name}</p>
                 {product.qty && <p>Qty: {product.qty}</p>}
                 <p>Inventry: {product.quantity}</p>
-                <div>${product.price.toFixed(2)}</div>
+                <div>{'$'}{product?.price?.toFixed?.(2)}</div>
                 <div><button onClick={()=>onAdd?.(product)}>Add to Cart</button></div>
             </div>
         </div>
