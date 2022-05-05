@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 
 export default function Product({product, onAdd}){
-
     return(
         <div className="procuct-container">
             <div className="procuct-card">
